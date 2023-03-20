@@ -1,7 +1,7 @@
 import gradio as gr
 import openai
 
-openai.api_key = "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"
+openai.api_key = "sk-xxxxxxxxxxxxxx"
 
 message_history = [{"role": "user", "content": f"You are a health assistant bot. I will specify the subject matter in my messages, and you will advice with a  that includes the subjects I mention in my messages. Reply only with relevant information to further input. If you understand, say OK."},
                    {"role": "assistant", "content": f"OK"}]
